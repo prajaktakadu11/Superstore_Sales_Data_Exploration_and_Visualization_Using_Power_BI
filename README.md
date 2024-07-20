@@ -8,11 +8,11 @@ The primary objective of this project is to analyze sales data from an e-commerc
 
 ### Key Features of the Dashboard:
 - Sales Overview: Displays total sales, total profit, and average profit per order.
-- Sales Trend Analysis: Visualizes sales and profit trends over time.
-- Category and Sub-Category Analysis: Analyzes sales and profit by product category and sub-category.
+* Sales Trend Analysis: Visualizes sales and profit trends over time.
++ Category and Sub-Category Analysis: Analyzes sales and profit by product category and sub-category.
 - Geographical Analysis: Maps sales and profit data by state and city.
-- Payment Mode Analysis: Examines sales distribution by different payment modes.
-- Customer Analysis: Identifies top customers by sales and profit.
+* Payment Mode Analysis: Examines sales distribution by different payment modes.
++ Customer Analysis: Identifies top customers by sales and profit.
 - Order Details: Provides a detailed view of individual orders.
 
 ### Steps Taken to Import, Clean, and Transform the Data
@@ -41,23 +41,21 @@ In the "Model" view, create a relationship between the Orders Details and Orders
 
 - Create Calculated Columns and Measures:
 
-Total Sales: Create a measure to calculate total sale.
-
-####### Total Sales = SUM('Orders Details'[Amount])
-
+1.Total Sales: Create a measure to calculate total sale.
 ```
-Total Profit: Create a measure to calculate total profit.
+Total Sales = SUM('Orders Details'[Amount])
 ```
-
-###### Total Profit = SUM('Orders Details'[Profit])
-
-Average Profit per Order: Create a measure to calculate the average profit per order.
-
-###### Average Profit per Order = DIVIDE([Total Profit], DISTINCTCOUNT('Orders'[Order ID]))
-
-Profit Margin: Create a measure to calculate the profit margin.
-
-###### Profit Margin = DIVIDE([Total Profit], [Total Sales])
-
+2.Total Profit: Create a measure to calculate total profit.
+```
+Total Profit = SUM('Orders Details'[Profit])
+```
+3.Average Profit per Order: Create a measure to calculate the average profit per order.
+```
+Average Profit per Order = DIVIDE([Total Profit], DISTINCTCOUNT('Orders'[Order ID]))
+```
+4.Profit Margin: Create a measure to calculate the profit margin.
+```
+Profit Margin = DIVIDE([Total Profit], [Total Sales])
+```
   
 
