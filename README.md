@@ -45,9 +45,9 @@ Total Sales: Create a measure to calculate total sale.
 
 ####### Total Sales = SUM('Orders Details'[Amount])
 
-'''
+```
 Total Profit: Create a measure to calculate total profit.
-'''
+```
 
 ###### Total Profit = SUM('Orders Details'[Profit])
 
