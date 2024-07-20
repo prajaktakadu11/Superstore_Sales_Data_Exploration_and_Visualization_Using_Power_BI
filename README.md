@@ -15,29 +15,29 @@ The primary objective of this project is to analyze sales data from an e-commerc
 + Customer Analysis: Identifies top customers by sales and profit.
 - Order Details: Provides a detailed view of individual orders.
 
-### Steps Taken to Import, Clean, and Transform the Data
+### Data Analysis using Power BI
 
-##### 1. Data Import:
+1. Data Import:
 The first step involves importing the two primary data tables into Power BI: Orders Details and Orders.<br>
 
-Orders Details Table:
+- Orders Details Table:
 Fields: Order ID, Amount, Profit, Quantity, Category, Sub-Category, Payment Mode.<br>
 
-Orders Table:
+- Orders Table:
 Fields: Order ID, Order Date, Customer Name, State, City.
 
-##### 2. Data Cleaning:
+2. Data Cleaning:
 After importing the data, it is essential to clean the data to ensure accuracy and consistency for analysis.
 
 - Remove Duplicates
 - Handle Missing Values
 
-##### 3. Data Transformation:
+3. Data Transformation:
 To facilitate analysis and create useful visualizations, additional transformations and calculations are necessary.
 
 - Create Relationships:
 
-In the "Model" view, create a relationship between the Orders Details and Orders tables based on the Order ID column.
+  In the "Model" view, create a relationship between the Orders Details and Orders tables based on the Order ID column.
 
 - Create Calculated Columns and Measures:
 
@@ -57,5 +57,12 @@ Average Profit per Order = DIVIDE([Total Profit], DISTINCTCOUNT('Orders'[Order I
 ```
 Profit Margin = DIVIDE([Total Profit], [Total Sales])
 ```
-  
+
+### Data Modeling
+
+And then dataset was cleaned and transformed, it was ready to the data modeled.
+
+The sales insights data tables as show below:
+
+
 
