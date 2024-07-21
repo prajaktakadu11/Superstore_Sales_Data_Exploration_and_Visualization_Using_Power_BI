@@ -3,7 +3,7 @@
 ### Introduction:
 In today’s data-driven world, businesses thrive on their ability to harness data for making informed decisions. This project aims to leverage Power BI, a powerful business analytics tool, to analyze and visualize sales data, providing comprehensive insights into sales performance across various dimensions. The project involves creating an interactive dashboard that not only visualizes key sales metrics but also allows stakeholders to explore data dynamically, uncovering trends and patterns that can drive strategic decision-making.
 
-### Objective:
+# Objective:
 The primary objective of this project is to analyze sales data from an e-commerce business, focusing on understanding sales trends, profit margins, and customer behavior. By creating an interactive Power BI dashboard, we aim to provide a user-friendly platform where users can easily navigate through the data and derive actionable insights.
 
 ### Key Features of the Dashboard:
