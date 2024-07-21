@@ -59,6 +59,8 @@ And then dataset was cleaned and transformed, it was ready to the data modeled.
 
 The sales insights data tables as show below:
 
+![Data model](https://github.com/prajaktakadu11/Superstore_Sales_Data_Exploration_and_Visualization_Using_Power_BI/blob/main/output/Data%20Model.PNG?raw=true)
+
 # Data Anlysis (DAX):
 
 Key Measures:
@@ -82,5 +84,9 @@ Profit Margin = DIVIDE([Total Profit], [Total Sales])
 
 # Build Dashboard or report:
 
-![Main dashboard](https://github.com/prajaktakadu11/Superstore_Sales_Data_Exploration_and_Visualization_Using_Power_BI/blob/main/Capture.PNG)
+![Main dashboard](https://github.com/prajaktakadu11/Superstore_Sales_Data_Exploration_and_Visualization_Using_Power_BI/blob/main/output/1.PNG?raw=true)
+
+![Sales dashboard](https://github.com/prajaktakadu11/Superstore_Sales_Data_Exploration_and_Visualization_Using_Power_BI/blob/main/output/2.PNG?raw=true)
+
+![Profit dashboard](https://github.com/prajaktakadu11/Superstore_Sales_Data_Exploration_and_Visualization_Using_Power_BI/blob/main/output/3.PNG?raw=true)
 
