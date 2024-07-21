@@ -82,5 +82,5 @@ Profit Margin = DIVIDE([Total Profit], [Total Sales])
 
 # Build Dashboard or report:
 
-!
+!(https://github.com/prajaktakadu11/Superstore_Sales_Data_Exploration_and_Visualization_Using_Power_BI/blob/main/Capture.PNG)
 
