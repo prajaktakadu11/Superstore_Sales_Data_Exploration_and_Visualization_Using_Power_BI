@@ -82,5 +82,5 @@ Profit Margin = DIVIDE([Total Profit], [Total Sales])
 
 # Build Dashboard or report:
 
-!(C:\Users\DELL\Desktop\pdf\power bi project\superstore sales data\Capture.PNG)
+!
 
