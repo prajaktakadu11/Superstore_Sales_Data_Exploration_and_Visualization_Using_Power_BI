@@ -32,22 +32,22 @@ The primary objective of this project is to analyze sales data from an e-commerc
 # Data Analysis using Power BI:
 
 1. Data Import:
-The first step involves importing the two primary data tables into Power BI: Orders Details and Orders.<br>
+  The first step involves importing the two primary data tables into Power BI: Orders Details and Orders.<br>
 
 - Orders Details Table:
-Fields: Order ID, Amount, Profit, Quantity, Category, Sub-Category, Payment Mode.<br>
+  Fields: Order ID, Amount, Profit, Quantity, Category, Sub-Category, Payment Mode.<br>
 
 - Orders Table:
-Fields: Order ID, Order Date, Customer Name, State, City.
+  Fields: Order ID, Order Date, Customer Name, State, City.
 
 2. Data Cleaning:
-After importing the data, it is essential to clean the data to ensure accuracy and consistency for analysis.
+  After importing the data, it is essential to clean the data to ensure accuracy and consistency for analysis.
 
 - Remove Duplicates
 - Handle Missing Values
 
 3. Data Transformation:
-To facilitate analysis and create useful visualizations, additional transformations and calculations are necessary.
+  To facilitate analysis and create useful visualizations, additional transformations and calculations are necessary.
 
 - Create Relationships:
 
@@ -82,5 +82,5 @@ Profit Margin = DIVIDE([Total Profit], [Total Sales])
 
 # Build Dashboard or report:
 
-![Capture](https://github.com/user-attachments/assets/55ab15e6-5a4b-40c9-b461-ceb80cbf6f6c)
+!(C:\Users\DELL\Desktop\pdf\power bi project\superstore sales data\Capture.PNG)
 
