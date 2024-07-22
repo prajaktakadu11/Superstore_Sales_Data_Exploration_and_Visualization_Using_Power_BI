@@ -2,12 +2,12 @@
 
 # Table of content 
 - Introduction
-* Objective
-+ Key Features of the Dashboard
+- Objective
+- Key Features of the Dashboard
 - Tools and Technologies 
 - Data Analyis
-* Data Modeling
-+ Data Analysis (DAX)
+- Data Modeling
+- Data Analysis (DAX)
 - Build Dashboard or report
 
 # Introduction:
